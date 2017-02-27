@@ -1,6 +1,6 @@
 # senecaLogin
 
-A simple script in Selenium that lets you login without a visual interface.
+A simple script in Selenium that lets you login to uniandes wifi (SENECA) without a visual interface.
 
 <h5>Before running it:</h5>
   <ol>
