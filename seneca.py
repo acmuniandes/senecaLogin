@@ -7,8 +7,9 @@ def connect():
     browser.get(url)
 
     usuario = browser.find_element_by_name('username')
+#     change it to your username
     usuario.send_keys('i.gomez10')
-
+# store your password as an env variable called CONTRASENA in your console before running it: CONTRASENA="somePassword123"
     lacontrasena = os.environ.get('CONTRASENA')
 
     contrasena = browser.find_element_by_name('password')
