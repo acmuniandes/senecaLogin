@@ -12,7 +12,7 @@ A simple script in Selenium that lets you login to uniandes wifi (SENECA) withou
  <h6>Possible additional steps:</h6>
  <ul>
  <li>Add the chromedriver file to your PATH</li>
- <p>*HINT*</p>
+ <p>HINT:</p>
  <p>PATH=$PATH:/Users/YourUser/somePATH/senecaLogin</p>
  
  </ul>
