@@ -1,5 +1,7 @@
 # senecaLogin 🔐
-A simple script in Selenium that lets you login to uniandes wifi (SENECA) without a visual interface.
+----Currently only works with MacOs but you can change the chromedriver file with yours and it should work ----
+
+<p>A simple script in Selenium that lets you login to uniandes wifi (SENECA) without a visual interface.</p>
 
 <h5>Before running it:</h5>
   <ol>
