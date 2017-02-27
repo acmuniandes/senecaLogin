@@ -1,11 +1,12 @@
 from selenium import webdriver
 import os
+import time
 
 def connect():
     browser = webdriver.Chrome('chromedriver')
     url = "http://wlan.uniandes.edu.co"
     browser.get(url)
-
+    time.sleep(1)
     usuario = browser.find_element_by_name('username')
 #     change it to your username
     usuario.send_keys('i.gomez10')
